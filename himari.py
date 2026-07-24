@@ -9,7 +9,7 @@ load_dotenv()
 
 TOKEN = os.getenv("HIMARI_TOKEN")
 
-HIMARI_CHANNEL_ID = 1529790625564590261
+HIMARI_CHANNEL_ID = 1530267951154987028
 
 with open("reply_list_himari.json", encoding="utf-8") as f:
     REPLIES = json.load(f)
